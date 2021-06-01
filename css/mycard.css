@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.card-body{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.product_name{
+  min-height: 5px;
+  white-space: nowrap; 
+  width: 250px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price{
+	margin-bottom: 4px;
+	font-weight: 100;
+	font-size: 12px;
+    font-family: 'Fredoka One', cursive;
+}
+.price_rate{
+	font-weight: 900;
+    font-size: 18px;
+    font-family: 'Fredoka One', cursive;
+}
+.profit{
+	margin-bottom: 4px;
+	font-weight: 200;
+	font-size: 14px;
+    font-family: 'Fredoka One', cursive;
+}
+.profit_rate{
+  font-weight: 900;
+  font-size: 18px;
+  color: green;
+  font-family: 'Fredoka One', cursive;
+  color: green;
+}
+.cardhr{
+	margin-bottom: 3px;
+	margin-top: 1px;
+}
+.buy_btn{
+	padding: 5px 4px;
+    border: 1px solid #999;
+    border-radius: 16px;
+    height: 30px;
+    font-size: 12px;
+    min-width: 103px;
+    text-align: center;
+}
+.share_btn{
+	padding: 5px 4px;
+    border: 1px solid #999;
+    border-radius: 16px;
+    height: 30px;
+    font-size: 12px;
+    min-width: 103px;
+    text-align: center;
+}
+.brand{
+  top:1px;
+  font-size: 14px;
+  font-family: 'Fredoka One', cursive;
+}
+.card-notify-badge {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: #f2d900;
+        text-align: center;
+        border-radius: 0px 30px 30px 30px; 
+        color: #000;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-family: 'Fredoka One', cursive;
+}
+.card-discount-badge {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        background: red;
+        text-align: center;
+        border-radius: 30px 0px 30px 30px; 
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-family: 'Fredoka One', cursive;
+}
+.cost_price{
+	color: red;
+    font-family: 'Fredoka One', cursive;
+
+}
+.discount-label {
+ padding:2px; 
+ position:absolute;
+ top: 0px;
+ right: 0px;
+width:60px;
+-webkit-border-radius:0 4px 0 4px;
+-moz-border-radius:0 4px 0 4px;
+border-radius:0 4px 4px 0;
+}
+
+.discount-label:after { 
+
+    right: 100%; 
+    border: solid transparent; content: " ";
+    position: absolute;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 13px; 
+    top: 60%;
+    margin-top: -16px;
+}
+
+    .discount-label:before {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  top: 42%;
+  right: 100%;
+  width: 6px;
+  height: 6px;
+  opacity: .95;
+  background: #ffffff;
+  border-radius: 7px;
+  -webkit-box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+
+    .discount-label span {
+      color:#ffffff;
+  font-size:15px;
+text-align:center;
+  font-family:"Raleway",Helvetica;
+
+}
+.red{ 
+background-color:#E80707; 
+}
+
+.red:after{ 
+border-right-color: #E80707;
+  
+}
+.cardmargin{
+  margin-left:8px;
+  margin-right:8px;
+}
+
+@media only screen and (max-width:600px) {
+.cardmargin{
+  margin-left:50px;
+  margin-right:50px;
+}
+}
+

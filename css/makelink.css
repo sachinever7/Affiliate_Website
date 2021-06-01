@@ -1,0 +1,44 @@
+.modal-open{overflow:auto;padding-right:0px !important;}
+.makelink{
+	padding: 5px 4px;
+    border: 1.5px solid #264;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 15px;
+    min-width: 103px;
+    text-align: center;
+}
+.input-group-append{
+    z-index: 1;
+}
+.makelinkbtn{
+    border: 1.5px solid #264;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    min-width: 120px;
+    text-align: center;
+}
+.mylink{
+    padding: 10px 05px;
+    border: 1.5px solid #352;
+    border-radius: 40px;
+    height: 40px;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+.mybtn{
+    border-radius: 50px;
+    height: 40px;
+    width: 60%;
+    text-align: center;
+}
+.appendbtn{
+    border: 1.5px solid #352;
+    border-radius: 40px;
+    height: 40px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+}
