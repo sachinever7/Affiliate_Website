@@ -45,12 +45,12 @@ function searchItems()
      * Add your credentials
      */
     # Please add your access key here
-    $config->setAccessKey('AKIAJMSXOGV7RLK2OQXQ');
+    $config->setAccessKey('AKIAJMSXOGV7RLK2');
     # Please add your secret key here
-    $config->setSecretKey('MQV1IUY4Ffu7rw0My4NM1OTUUQRTmhVNIOg+k5sQ');
+    $config->setSecretKey('MQV1IUY4Ffu7rw0My4NM1OTUUQRTmhVQ');
 
     # Please add your partner tag (store/tracking id) here
-    $partnerTag ='sachinever1-21';
+    $partnerTag ='sachinev';
 
     /*
      * PAAPI host and region to which you want to send request
