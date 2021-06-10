@@ -45,9 +45,9 @@ function searchItems()
      * Add your credentials
      */
     # Please add your access key here
-    $config->setAccessKey('AKIAJMSXOGV7RLK2');
+    $config->setAccessKey('AKIAJMSXOGV');
     # Please add your secret key here
-    $config->setSecretKey('MQV1IUY4Ffu7rw0My4NM1OTUUQRTmhVQ');
+    $config->setSecretKey('MQV1IUY4Ffu7rw0My4');
 
     # Please add your partner tag (store/tracking id) here
     $partnerTag ='sachinev';
