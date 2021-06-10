@@ -18,7 +18,7 @@
 $searchItemRequest = new SearchItemsRequest ();
 $searchItemRequest->PartnerType = "Associates";
 // Put your Partner tag (Store/Tracking id) in place of Partner tag
-$searchItemRequest->PartnerTag ="sachinever7-21";
+$searchItemRequest->PartnerTag ="<PARTNER TAG>";
 $searchItemRequest->Keywords = "Harry";
 $searchItemRequest->SearchIndex = "All";
 $searchItemRequest->Resources = ["Images.Primary.Small","ItemInfo.Title","Offers.Listings.Price"];
@@ -26,7 +26,7 @@ $host = "webservices.amazon.com";
 $path = "/paapi5/searchitems";
 $payload = json_encode ($searchItemRequest);
 //Put your Access Key in place of <ACCESS_KEY> and Secret Key in place of <SECRET_KEY> in double quotes
-$awsv4 = new AwsV4 ("AKIAJMSXOGV7RLK2OQXQ","MQV1IUY4Ffu7rw0My4NM1OTUUQRTmhVNIOg+k5sQ");
+$awsv4 = new AwsV4 ("<ACCESS KEY>","<SECRET KEY>");
 $awsv4->setRegionName("eu-west-1");
 $awsv4->setServiceName("ProductAdvertisingAPI");
 $awsv4->setPath ($path);
